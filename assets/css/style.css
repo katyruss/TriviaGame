@@ -1,113 +1,23 @@
 body {
-	background-color: purple;
+	background-color: lightseagreen;
 }
 
-#jumbo1 {
-	background-image: url ("assets/images/backgroundimage.jpeg");
-    max-height: 
-    background-repeat: 
-    background-position: 
-    background-size: 
-    padding-top: 
-    padding-bottom: 
-    width: 
+.jumboMain {
+	background-image: url("assets/images/backgroundimage.jpeg");
+	text-align: center;
 }
+
 
 #gameName {
-	margin-left: 
-    margin-right: 
-    color:
-    letter-spacing: 
-    font-family: 
+	text-align: center;
 }
 
-div.jumbotron.text-center#startGame {
-	background-color: rgba(0, 0, 0, 0.01);
+#beginGame {
+	background-color: green;
 }
 
-#startBtn {
-	padding:12px 40px 12px 40px;
-	font-size: 25px;
-	background-color: #e2c55f;
-	border-color: #000;
-	color: #111;
-	font-family: 'Rock Salt', cursive;
-	letter-spacing: 4px;
-	}
-#startBtn:hover {
-	background-color: #8f3625;
-	color: #def;
-		}
 
-div#gameArea.jumbotron.text-center {
-	/*margin-right: 10%;
-    margin-left: 10%;*/
-    background-color: #000;
+#startOverBtn {
+	padding: "30px";
+	font-size: "20px";
 }
-
-img.gifImg {
-	width:75%;
-	height:auto;
-}
-
-div#Qs.container {
-	font-family: 'Source Code Pro', monospace;
-}
-	div#time {
-		font-size: 25px;
-		color: #def;
-	}
-	div.question {
-		/*font-family: 'Source Code Pro', monospace;*/
-		color:#eb8b2b;
-		font-size: 18px;
-	}
-
-	div.thisChoice {
-		/*font-family: 'Nanum Gothic Coding', monospace;*/
-		font-size: 16px;
-		color: #def;
-		line-height: 50px;
-	}
-		div.thisChoice:hover {
-			color:red;
-		}
-div#Ans.container {
-	font-family: 'Source Code Pro', monospace;
-}
-	div#text, div#correctAnswer {
-		color: #edd899;
-		font-size: 18px;
-	}
-	div#text {
-		/*font-family: 'Ubuntu Mono', monospace;*/
-		color: #b7ecf5;
-	}
-	div.gifCap {
-		color:#faf7ed;
-		font-size: 14px;
-	}
-
-div.container#Res {
-	color: lightblue;
-	font-size: 20px;
-	font-family: 'Source Code Pro', monospace;
-}
-	div#resultText {
-		color: #eb8b2b;
-	}
-	button#startOverBtn {
-		padding:12px 40px 12px 40px;
-		font-size: 18px;
-		background-color: #8f3625;
-		border-color: #000;
-		color: #def;
-		font-family: 'Rock Salt', cursive;
-		letter-spacing: 4px;
-	}
-		button#startOverBtn:hover {
-			background-color: #e2c55f;
-			color: #111;
-			cursor: pointer;
-		}
-

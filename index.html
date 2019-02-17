@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Dog Trivia Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
-</head>
-<body>
-
-<div class = "jumbotron col-md-12" id="jumboMain"></div>
-<div class="container col-md-12">
-    <div class="row text-center">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="assets/css/style.css"
+    />
+  </head>
+  <body>
+    <div class="jumbotron col-md-12" id="jumboMain"></div>
+    <div class="container col-md-12">
+      <div class="jumbotron text-center">
         <h1 id="gameName">Dog Trivia Game</h1>
+      </div>
+
+      <div class="jumbotron text-center" id="beginGame">
+        <button id="startBtn">Click to play!</button>
+      </div>
+
+      <div class="jumbotron text-center" id="gameArea">
+        <div class="container" id="gameQuestions">
+          <div id="time"></div>
+          <div id="question"></div>
+          <div id="choices"></div>
+        </div>
+
+        <div class="container" id="gameAnswers">
+          <div id="text"></div>
+          <div id="correctAnswer"></div>
+        </div>
+
+        <div class="container" id="gameResults">
+          <div id="resultText"></div>
+          <div id="correctAnswer"></div>
+          <div id="incorrectAnswer"></div>
+          <div id="questionsUnanswered"></div>
+          <button id="restartBtn"></button>
+        </div>
+      </div>
     </div>
-    
-    <div class="jumbotron text-center" id="beginGame">
-        <button id="startButton">Click to play!</button>
-    </div>    
 
-<div class="jumbotron text-center" id="gameArea">
-
-    <div class="container" id="gameQuestions">
-        <div id="time"></div>
-        <div id="question"></div>
-        <div id="choices"></div>
-    </div>
-    
-    <div class="container" id="gameAnswers">
-            <div id="text"></div>
-            <div id="correctAnswer"></div>
-    </div>
-
-    <div class="container" id="gameResults">
-            <div id="resultText"></div>
-            <div id="correctAnswer"></div>
-            <div id="incorrectAnswer"></div>
-            <div id="questionsUnanswered"></div>
-            <button id="restartBtn"></button>
-    </div>
-
-</div>
-
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="assets/javascript/app.js"></script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+  </body>
 </html>
